@@ -62,4 +62,14 @@ npm run buildppe
 *  package.json为项目拷贝文件，可忽略
 ***
 
-
+部分字段说明
+prizeDesc：奖品说明，采用“$utf8$”分割，前端截取成数组，进行展示
+winners：获奖名单
+defineId：活动id
+remainingTimes：剩余抽奖次数
+beginTime：活动开始时间
+endTime活动结束时间
+currTime:当前时间
+title：活动标题
+prizeInfo：奖品信息
+lotteryDesc：抽奖活动说明规则,同奖品说明prizeDesc
